@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Ganga Jewellers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" data-editable="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">
+                    <a href="index.html" style="text-decoration: none; color: inherit;">
+                        <h1 data-content="business-name">Ganga Jewellers</h1>
+                        <p class="tagline" data-content="tagline">Since 1985</p>
+                        <p class="motto" data-content="motto" style="font-style: italic; color: var(--primary-color); font-size: 0.75rem; letter-spacing: 0.15em; margin-top: 4px;">Purity is the Purpose</p>
+                    </a>
+                </div>
+                <div class="header-contact">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span data-content="phone">+91-9891613632</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span data-content="email">pmaheshwari61@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="products.html">Collections <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="products.html?category=gold">Gold Jewelry</a></li>
+                            <li><a href="products.html?category=diamond">Diamond Jewelry</a></li>
+                            <li><a href="products.html?category=silver">Silver</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <h1 data-content="gallery-page-title">Our Gallery</h1>
+        <div class="section-divider"><i class="fas fa-diamond"></i></div>
+        <p data-content="gallery-description">Explore our stunning collection of handcrafted jewelry pieces</p>
+    </section>
+
+    <!-- Gallery Page Content -->
+    <section class="gallery-page">
+        <div class="container">
+            <div class="gallery-filter">
+                <button class="gallery-filter-btn active" data-filter="all">All</button>
+                <button class="gallery-filter-btn" data-filter="gold">Gold</button>
+                <button class="gallery-filter-btn" data-filter="diamond">Diamond</button>
+                <button class="gallery-filter-btn" data-filter="silver">Silver</button>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="gold">
+                    <div class="gallery-image">
+                        <img src="https://via.placeholder.com/400x400/FFD700/FFFFFF?text=Gold+Set+1" alt="Traditional Gold Jewelry Set" data-content="gallery-image-1">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="diamond">
+                    <div class="gallery-image">
+                        <img src="images/diamond/ChatGPT%20Image%20Feb%209%2C%202026%2C%2012_45_05%20AM.png" alt="Diamond Jewelry" data-content="gallery-image-2">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="gold">
+                    <div class="gallery-image">
+                        <img src="https://via.placeholder.com/400x400/FFD700/FFFFFF?text=Gold+Pendant" alt="Ornate Gold Pendant" data-content="gallery-image-3">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="diamond">
+                    <div class="gallery-image">
+                        <img src="images/diamond/ChatGPT%20Image%20Feb%209%2C%202026%2C%2012_43_54%20AM.png" alt="Diamond Jewelry" data-content="gallery-image-5">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="silver">
+                    <div class="gallery-image">
+                        <img src="https://via.placeholder.com/400x400?text=Silver+Jewelry" alt="Silver Jewelry" data-content="gallery-image-6">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="gold">
+                    <div class="gallery-image">
+                        <img src="https://via.placeholder.com/400x400/FFD700/FFFFFF?text=Jhumka+Earrings" alt="Gold Jhumka Earrings" data-content="gallery-image-7">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="gold">
+                    <div class="gallery-image">
+                        <img src="https://via.placeholder.com/400x400/FFD700/FFFFFF?text=Detailed+Jhumka" alt="Detailed Gold Jhumka Earring" data-content="gallery-image-10">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="gold">
+                    <div class="gallery-image">
+                        <img src="https://via.placeholder.com/400x400/FFD700/FFFFFF?text=Gold+Set+2" alt="Gold Set with Teardrop Red Gemstones" data-content="gallery-image-11">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="gold">
+                    <div class="gallery-image">
+                        <img src="https://via.placeholder.com/400x400/FFD700/FFFFFF?text=Crescent+Earring" alt="Gold Crescent Disc Earring" data-content="gallery-image-12">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="gold">
+                    <div class="gallery-image">
+                        <img src="https://via.placeholder.com/400x400/FFD700/FFFFFF?text=Conical+Earring" alt="Gold Conical Dangle Earring" data-content="gallery-image-13">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="gold">
+                    <div class="gallery-image">
+                        <img src="https://via.placeholder.com/400x400/FFD700/FFFFFF?text=Bell+Charm+Earring" alt="Gold Bell Charm Earring" data-content="gallery-image-14">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="diamond">
+                    <div class="gallery-image">
+                        <img src="images/diamond/ChatGPT%20Image%20Feb%209%2C%202026%2C%2012_46_08%20AM.png" alt="Diamond Jewelry" data-content="gallery-image-8">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="diamond">
+                    <div class="gallery-image">
+                        <img src="images/diamond/ChatGPT%20Image%20Feb%209%2C%202026%2C%2012_02_53%20AM.png" alt="Diamond Jewelry" data-content="gallery-diamond-4">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="diamond">
+                    <div class="gallery-image">
+                        <img src="images/diamond/ChatGPT%20Image%20Feb%209%2C%202026%2C%2012_20_55%20AM.png" alt="Diamond Jewelry" data-content="gallery-diamond-5">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="diamond">
+                    <div class="gallery-image">
+                        <img src="images/diamond/ChatGPT%20Image%20Feb%209%2C%202026%2C%2012_22_23%20AM.png" alt="Diamond Jewelry" data-content="gallery-diamond-6">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="diamond">
+                    <div class="gallery-image">
+                        <img src="images/diamond/ChatGPT%20Image%20Feb%209%2C%202026%2C%2012_23_40%20AM.png" alt="Diamond Jewelry" data-content="gallery-diamond-7">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="diamond">
+                    <div class="gallery-image">
+                        <img src="images/diamond/ChatGPT%20Image%20Feb%209%2C%202026%2C%2012_38_42%20AM.png" alt="Diamond Jewelry" data-content="gallery-diamond-8">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="diamond">
+                    <div class="gallery-image">
+                        <img src="images/diamond/ChatGPT%20Image%20Feb%209%2C%202026%2C%2012_47_13%20AM.png" alt="Diamond Jewelry" data-content="gallery-diamond-9">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox-modal" id="lightboxModal">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-image" id="lightboxImage" src="" alt="">
+        <div class="lightbox-nav">
+            <button class="lightbox-prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="lightbox-next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer" data-editable="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3 data-content="footer-about-title">About Ganga Jewellers</h3>
+                    <p data-content="footer-about-text">Your trusted partner for premium jewelry since 1985. We offer certified gold, diamond, and silver jewelry with exceptional craftsmanship.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Collections</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> <span data-content="address">123 Main Street, City, State 123456</span></li>
+                        <li><i class="fas fa-phone"></i> <span data-content="footer-phone">+91-9891613632</span></li>
+                        <li><i class="fas fa-envelope"></i> <span data-content="footer-email">pmaheshwari61@gmail.com</span></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" data-content="social-facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" data-content="social-instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" data-content="social-whatsapp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span data-content="copyright-year">2025</span> Ganga Jewellers. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Social Buttons -->
+    <div class="floating-social">
+        <a href="#" class="whatsapp-btn" title="Chat on WhatsApp" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" class="facebook-btn" title="Follow on Facebook" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="instagram-btn" title="Follow on Instagram" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+    </div>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" title="Back to Top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Edit Mode Toggle -->
+    <button class="edit-mode-toggle" id="editModeToggle" title="Toggle Edit Mode">
+        <i class="fas fa-edit"></i>
+    </button>
+
+    <!-- Edit Modal -->
+    <div class="edit-modal" id="editModal">
+        <div class="edit-modal-content">
+            <span class="edit-modal-close">&times;</span>
+            <h2 id="editModalTitle">Edit Content</h2>
+            <form id="editForm">
+                <div class="form-group">
+                    <label for="editField">Field:</label>
+                    <input type="text" id="editField" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="editValue" id="editValueLabel">Content:</label>
+                    <textarea id="editValue" rows="5" placeholder="Enter content or image URL"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Save Changes</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/editor.js"></script>
+    <script>
+        // Gallery filter and lightbox
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterBtns = document.querySelectorAll('.gallery-filter-btn');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+            const lightboxModal = document.getElementById('lightboxModal');
+            const lightboxImage = document.getElementById('lightboxImage');
+            const lightboxClose = document.querySelector('.lightbox-close');
+            const lightboxPrev = document.querySelector('.lightbox-prev');
+            const lightboxNext = document.querySelector('.lightbox-next');
+            let currentImageIndex = 0;
+            let visibleImages = [];
+
+            // Filter functionality
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const filter = this.getAttribute('data-filter');
+
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+
+                    galleryItems.forEach(item => {
+                        if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+
+            // Lightbox functionality (only when not in edit mode)
+            galleryItems.forEach((item, index) => {
+                item.addEventListener('click', function(e) {
+                    if (document.body.classList.contains('edit-mode')) return;
+                    const img = this.querySelector('img');
+                    if (img && img.src) openLightbox(img.src, index);
+                });
+            });
+
+            function openLightbox(src, index) {
+                currentImageIndex = index;
+                visibleImages = Array.from(galleryItems)
+                    .filter(item => item.style.display !== 'none')
+                    .map(item => item.querySelector('img').src);
+
+                currentImageIndex = visibleImages.indexOf(src);
+                lightboxImage.src = src;
+                lightboxModal.style.display = 'flex';
+            }
+
+            function closeLightbox() {
+                lightboxModal.style.display = 'none';
+            }
+
+            function showNextImage() {
+                currentImageIndex = (currentImageIndex + 1) % visibleImages.length;
+                lightboxImage.src = visibleImages[currentImageIndex];
+            }
+
+            function showPrevImage() {
+                currentImageIndex = (currentImageIndex - 1 + visibleImages.length) % visibleImages.length;
+                lightboxImage.src = visibleImages[currentImageIndex];
+            }
+
+            if (lightboxClose) lightboxClose.addEventListener('click', closeLightbox);
+            if (lightboxNext) lightboxNext.addEventListener('click', showNextImage);
+            if (lightboxPrev) lightboxPrev.addEventListener('click', showPrevImage);
+
+            lightboxModal.addEventListener('click', function(e) {
+                if (e.target === lightboxModal) closeLightbox();
+            });
+
+            document.addEventListener('keydown', function(e) {
+                if (lightboxModal.style.display === 'flex') {
+                    if (e.key === 'Escape') closeLightbox();
+                    if (e.key === 'ArrowRight') showNextImage();
+                    if (e.key === 'ArrowLeft') showPrevImage();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

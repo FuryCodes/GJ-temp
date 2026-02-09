@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganga Jewellers - Premium Gold & Diamond Jewelry</title>
+    <meta name="description" content="Ganga Jewellers - Your trusted destination for premium gold and diamond jewelry. Explore our exquisite collection of rings, necklaces, earrings, and more.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" data-editable="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">
+                    <a href="index.html" style="text-decoration: none; color: inherit;">
+                        <h1 data-content="business-name">Ganga Jewellers</h1>
+                        <p class="tagline" data-content="tagline">Since 1985</p>
+                        <p class="motto" data-content="motto" style="font-style: italic; color: var(--primary-color); font-size: 0.75rem; letter-spacing: 0.15em; margin-top: 4px;">Purity is the Purpose</p>
+                    </a>
+                </div>
+                <div class="header-contact">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span data-content="phone">+91-9891613632</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span data-content="email">pmaheshwari61@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="products.html">Collections <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="products.html?category=gold">Gold Jewelry</a></li>
+                            <li><a href="products.html?category=diamond">Diamond Jewelry</a></li>
+                            <li><a href="products.html?category=silver">Silver</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" data-editable="hero">
+        <div class="hero-slider">
+            <div class="hero-slide active">
+                <div class="hero-content">
+                    <h2 data-content="hero-title-1">Exquisite Jewelry for Every Occasion</h2>
+                    <div class="hero-ornament"><i class="fas fa-diamond"></i></div>
+                    <p data-content="hero-desc-1">Discover our stunning collection of handcrafted gold and diamond jewelry</p>
+                    <a href="products.html" class="btn btn-primary">View Collection</a>
+                </div>
+            </div>
+            <div class="hero-slide">
+                <div class="hero-content">
+                    <h2 data-content="hero-title-2">Timeless Elegance, Modern Design</h2>
+                    <div class="hero-ornament"><i class="fas fa-diamond"></i></div>
+                    <p data-content="hero-desc-2">Crafted with precision and passion for generations</p>
+                    <a href="contact.html" class="btn btn-primary">Visit Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-nav">
+            <button class="hero-prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="hero-next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        <div class="hero-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features scroll-reveal">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Certified Quality</h3>
+                    <p>BIS Hallmark certified jewelry</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-tag"></i>
+                    <h3>Lowest Making Charges</h3>
+                    <p>Competitive making charges for all jewelry</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-gem"></i>
+                    <h3>Widest Variety of Jewellery</h3>
+                    <p>Extensive collection of designs and styles</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-flask"></i>
+                    <h3>Gold Testing Spectrometer Available</h3>
+                    <p>Accurate purity testing for your peace of mind</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories scroll-reveal" data-editable="categories">
+        <div class="container">
+            <h2 class="section-title" data-content="categories-title">Our Collections</h2>
+            <div class="section-divider"><i class="fas fa-diamond"></i></div>
+            <p class="section-subtitle">Handcrafted with love and precision</p>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-image">
+                        <img src="images/gold/traditional-set-red-gems-pearls.jpg" alt="Traditional Gold Jewelry Set with Red Gemstones and Pearls" data-content="category-image-1" onerror="this.src='https://via.placeholder.com/400x400/FFD700/FFFFFF?text=Gold+Jewelry'">
+                    </div>
+                    <div class="category-content">
+                        <h3 data-content="category-name-1">Gold Jewelry</h3>
+                        <p data-content="category-desc-1">Traditional and contemporary gold designs</p>
+                        <a href="products.html?category=gold" class="btn btn-outline">Explore</a>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <div class="category-image">
+                        <img src="images/diamond/ChatGPT%20Image%20Feb%209%2C%202026%2C%2012_45_05%20AM.png" alt="Diamond Jewelry" data-content="category-image-2">
+                    </div>
+                    <div class="category-content">
+                        <h3 data-content="category-name-2">Diamond Jewelry</h3>
+                        <p data-content="category-desc-2">Sparkling diamonds in elegant settings</p>
+                        <a href="products.html?category=diamond" class="btn btn-outline">Explore</a>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <div class="category-image">
+                        <img src="https://via.placeholder.com/400x400?text=Silver" alt="Silver" data-content="category-image-4">
+                    </div>
+                    <div class="category-content">
+                        <h3 data-content="category-name-4">Silver</h3>
+                        <p data-content="category-desc-4">Beautiful silver jewelry pieces</p>
+                        <a href="products.html?category=silver" class="btn btn-outline">Explore</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Preview Section -->
+    <section class="about-preview scroll-reveal" data-editable="about-preview">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 data-content="about-title">Welcome to Ganga Jewellers</h2>
+                    <div class="section-divider" style="justify-content: flex-start;"><i class="fas fa-diamond"></i></div>
+                    <p class="motto-quote" style="font-size: 1.3rem; font-style: italic; color: var(--primary-color); margin-bottom: 25px; letter-spacing: 0.05em; font-weight: 500;">"Purity is the Purpose"</p>
+                    <p data-content="about-text-1">With over three decades of excellence in jewelry craftsmanship, Ganga Jewellers has been a trusted name in the jewelry industry. We specialize in creating exquisite pieces that blend traditional artistry with contemporary designs.</p>
+                    <p data-content="about-text-2">Our commitment to quality, authenticity, and customer satisfaction has made us a preferred choice for generations. Every piece in our collection is crafted with precision, using only the finest materials and certified gemstones.</p>
+                    <a href="about.html" class="btn btn-primary">Learn More</a>
+                </div>
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/600x400?text=Ganga+Jewellers" alt="About Ganga Jewellers" data-content="about-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials scroll-reveal" data-editable="testimonials">
+        <div class="container">
+            <h2 class="section-title" data-content="testimonials-title">What Our Customers Say</h2>
+            <div class="section-divider"><i class="fas fa-diamond"></i></div>
+            <p class="section-subtitle">Trusted by families for generations</p>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text" data-content="testimonial-1-text">"Excellent quality and service. The jewelry exceeded my expectations!"</p>
+                    <p class="testimonial-author" data-content="testimonial-1-author">- Priya Sharma</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text" data-content="testimonial-2-text">"Beautiful designs and authentic gold. Highly recommended!"</p>
+                    <p class="testimonial-author" data-content="testimonial-2-author">- Rajesh Kumar</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text" data-content="testimonial-3-text">"Trustworthy jeweler with great customer service. Will definitely return!"</p>
+                    <p class="testimonial-author" data-content="testimonial-3-author">- Anjali Patel</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox for category images -->
+    <div class="lightbox-modal" id="categoryLightbox">
+        <span class="lightbox-close" id="categoryLightboxClose">&times;</span>
+        <img class="lightbox-image" id="categoryLightboxImage" src="" alt="">
+        <div class="lightbox-nav">
+            <button class="lightbox-prev" id="categoryLightboxPrev"><i class="fas fa-chevron-left"></i></button>
+            <button class="lightbox-next" id="categoryLightboxNext"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <!-- Google Maps Section -->
+    <section class="map-section-home scroll-reveal">
+        <div class="container">
+            <div class="map-wrapper">
+                <div class="map-info">
+                    <h2 data-content="map-home-title">Visit Our Store</h2>
+                    <div class="section-divider" style="justify-content: flex-start;"><i class="fas fa-diamond"></i></div>
+                    <div class="map-info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p data-content="map-address">D-90, near New Seelampur Police Station, New Seelampur Phase II, New Seelampur, Delhi, 110095<br>India</p>
+                    </div>
+                    <div class="map-info-item">
+                        <i class="fas fa-phone"></i>
+                        <p data-content="map-phone">+91-9891613632</p>
+                    </div>
+                    <div class="map-info-item">
+                        <i class="fas fa-clock"></i>
+                        <p data-content="map-hours">11:00 AM - 8:30 PM<br>All days except Tuesday</p>
+                    </div>
+                    <a href="https://www.google.com/maps/dir//Ganga+Jewellers,+New+Seelampur,+Police+Station,+D-90,+near+New+Seelampur,+New+Seelampur+Phase+II,+New+Seelampur,+Delhi,+110095/@28.6456634,77.343558,4422m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x390cfda9ec8e463f:0x4e58d5d4f9940f3d!2m2!1d77.268637!2d28.674829?entry=ttu&g_ep=EgoyMDI2MDIwNC4wIKXMDSoKLDEwMDc5MjA3M0gBUAM%3D" class="btn btn-outline" style="margin-top: 10px;" target="_blank" rel="noopener">Get Directions</a>
+                </div>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.1234567890!2d77.268637!3d28.674829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfda9ec8e463f%3A0x4e58d5d4f9940f3d!2sGanga%20Jewellers%2C%20New%20Seelampur%2C%20Delhi!5e0!3m2!1sen!2sin!4v1234567890"
+                        width="100%"
+                        height="100%"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" data-editable="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3 data-content="footer-about-title">About Ganga Jewellers</h3>
+                    <p data-content="footer-about-text">Your trusted partner for premium jewelry since 1985. We offer certified gold, diamond, and silver jewelry with exceptional craftsmanship.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Collections</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> <span data-content="address">123 Main Street, City, State 123456</span></li>
+                        <li><i class="fas fa-phone"></i> <span data-content="footer-phone">+91-9891613632</span></li>
+                        <li><i class="fas fa-envelope"></i> <span data-content="footer-email">pmaheshwari61@gmail.com</span></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" data-content="social-facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" data-content="social-instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" data-content="social-whatsapp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span data-content="copyright-year">2025</span> Ganga Jewellers. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Social Buttons -->
+    <div class="floating-social">
+        <a href="#" class="whatsapp-btn" title="Chat on WhatsApp" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" class="facebook-btn" title="Follow on Facebook" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="instagram-btn" title="Follow on Instagram" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+    </div>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" title="Back to Top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Edit Mode Toggle -->
+    <button class="edit-mode-toggle" id="editModeToggle" title="Toggle Edit Mode">
+        <i class="fas fa-edit"></i>
+    </button>
+
+    <!-- Edit Modal -->
+    <div class="edit-modal" id="editModal">
+        <div class="edit-modal-content">
+            <span class="edit-modal-close">&times;</span>
+            <h2 id="editModalTitle">Edit Content</h2>
+            <form id="editForm">
+                <div class="form-group">
+                    <label for="editField">Field:</label>
+                    <input type="text" id="editField" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="editValue" id="editValueLabel">Content:</label>
+                    <textarea id="editValue" rows="5" placeholder="Enter content or image URL"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Save Changes</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/editor.js"></script>
+    <script>
+        // Category image lightbox: click to open full photo
+        document.addEventListener('DOMContentLoaded', function() {
+            var categoryLightbox = document.getElementById('categoryLightbox');
+            var categoryLightboxImage = document.getElementById('categoryLightboxImage');
+            var categoryLightboxClose = document.getElementById('categoryLightboxClose');
+            var categoryLightboxPrev = document.getElementById('categoryLightboxPrev');
+            var categoryLightboxNext = document.getElementById('categoryLightboxNext');
+            var categoryImages = Array.from(document.querySelectorAll('.category-card .category-image img')).map(function(img) { return img.src; });
+            var categoryIndex = 0;
+
+            function openCategoryLightbox(src) {
+                categoryIndex = categoryImages.indexOf(src);
+                if (categoryIndex < 0) categoryIndex = 0;
+                categoryLightboxImage.src = categoryImages[categoryIndex];
+                categoryLightbox.style.display = 'flex';
+            }
+
+            function closeCategoryLightbox() {
+                categoryLightbox.style.display = 'none';
+            }
+
+            function nextCategoryImage() {
+                categoryIndex = (categoryIndex + 1) % categoryImages.length;
+                categoryLightboxImage.src = categoryImages[categoryIndex];
+            }
+
+            function prevCategoryImage() {
+                categoryIndex = (categoryIndex - 1 + categoryImages.length) % categoryImages.length;
+                categoryLightboxImage.src = categoryImages[categoryIndex];
+            }
+
+            document.querySelectorAll('.category-card .category-image').forEach(function(el) {
+                el.style.cursor = 'pointer';
+                el.addEventListener('click', function(e) {
+                    if (document.body.classList.contains('edit-mode')) return;
+                    e.preventDefault();
+                    var img = this.querySelector('img');
+                    if (img && img.src) openCategoryLightbox(img.src);
+                });
+            });
+
+            if (categoryLightboxClose) categoryLightboxClose.addEventListener('click', closeCategoryLightbox);
+            if (categoryLightboxPrev) categoryLightboxPrev.addEventListener('click', prevCategoryImage);
+            if (categoryLightboxNext) categoryLightboxNext.addEventListener('click', nextCategoryImage);
+            if (categoryLightbox) {
+                categoryLightbox.addEventListener('click', function(e) {
+                    if (e.target === categoryLightbox) closeCategoryLightbox();
+                });
+            }
+            document.addEventListener('keydown', function(e) {
+                if (categoryLightbox && categoryLightbox.style.display === 'flex') {
+                    if (e.key === 'Escape') closeCategoryLightbox();
+                    if (e.key === 'ArrowRight') nextCategoryImage();
+                    if (e.key === 'ArrowLeft') prevCategoryImage();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections - Ganga Jewellers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" data-editable="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">
+                    <a href="index.html" style="text-decoration: none; color: inherit;">
+                        <h1 data-content="business-name">Ganga Jewellers</h1>
+                        <p class="tagline" data-content="tagline">Since 1985</p>
+                        <p class="motto" data-content="motto" style="font-style: italic; color: var(--primary-color); font-size: 0.75rem; letter-spacing: 0.15em; margin-top: 4px;">Purity is the Purpose</p>
+                    </a>
+                </div>
+                <div class="header-contact">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span data-content="phone">+91-9891613632</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span data-content="email">pmaheshwari61@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="products.html" class="active">Collections <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="products.html?category=gold">Gold Jewelry</a></li>
+                            <li><a href="products.html?category=diamond">Diamond Jewelry</a></li>
+                            <li><a href="products.html?category=silver">Silver</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <h1 data-content="products-page-title">Our Collections</h1>
+        <div class="section-divider"><i class="fas fa-diamond"></i></div>
+        <p>Explore our exquisite range of handcrafted jewelry</p>
+    </section>
+
+    <!-- Products Page Content -->
+    <section class="products-page">
+        <div class="container">
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="gold">Gold</button>
+                <button class="filter-btn" data-category="diamond">Diamond</button>
+                <button class="filter-btn" data-category="silver">Silver</button>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card" data-category="gold">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/400x400/FFD700/FFFFFF?text=Gold+Set+1" alt="Traditional Gold Necklace and Earrings Set" data-content="product-image-1">
+                        <div class="product-name-overlay">
+                            <h3 data-content="product-name-1">Traditional Gold Set with Red Gems</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="gold">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/400x400/FFD700/FFFFFF?text=Gold+Pendant" alt="Ornate Gold Pendant" data-content="product-image-7">
+                        <div class="product-name-overlay">
+                            <h3 data-content="product-name-7">Ornate Gold Pendant</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="gold">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/400x400/FFD700/FFFFFF?text=Jhumka+Earrings" alt="Gold Jhumka Earrings" data-content="product-image-8">
+                        <div class="product-name-overlay">
+                            <h3 data-content="product-name-8">Gold Jhumka Earrings</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="gold">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/400x400/FFD700/FFFFFF?text=Gold+Set+2" alt="Gold Set with Teardrop Red Gemstones" data-content="product-image-9">
+                        <div class="product-name-overlay">
+                            <h3 data-content="product-name-9">Gold Set with Red Gemstones</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="gold">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/400x400/FFD700/FFFFFF?text=Crescent+Earring" alt="Gold Crescent Disc Earring" data-content="product-image-10">
+                        <div class="product-name-overlay">
+                            <h3 data-content="product-name-10">Gold Crescent Earring</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="gold">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/400x400/FFD700/FFFFFF?text=Conical+Earring" alt="Gold Conical Dangle Earring" data-content="product-image-11">
+                        <div class="product-name-overlay">
+                            <h3 data-content="product-name-11">Gold Conical Dangle Earring</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="gold">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/400x400/FFD700/FFFFFF?text=Bell+Charm+Earring" alt="Gold Bell Charm Earring" data-content="product-image-12">
+                        <div class="product-name-overlay">
+                            <h3 data-content="product-name-12">Gold Bell Charm Earring</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="diamond">
+                    <div class="product-image">
+                        <img src="images/diamond/ChatGPT%20Image%20Feb%209%2C%202026%2C%2012_45_05%20AM.png" alt="Ruby Royale Diamond Necklace Set" data-content="product-image-2">
+                        <div class="product-name-overlay">
+                            <h3 data-content="product-name-2">Ruby Royale Diamond Necklace Set</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="gold">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/400x400/FFD700/FFFFFF?text=Detailed+Jhumka" alt="Detailed Gold Jhumka Earring" data-content="product-image-3">
+                        <div class="product-name-overlay">
+                            <h3 data-content="product-name-3">Detailed Jhumka Earring</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="diamond">
+                    <div class="product-image">
+                        <img src="images/diamond/ChatGPT%20Image%20Feb%209%2C%202026%2C%2012_43_54%20AM.png" alt="Floral Ruby Radiance Necklace Set" data-content="product-image-4">
+                        <div class="product-name-overlay">
+                            <h3 data-content="product-name-4">Floral Ruby Radiance Necklace Set</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="diamond">
+                    <div class="product-image">
+                        <img src="images/diamond/ChatGPT%20Image%20Feb%209%2C%202026%2C%2012_46_08%20AM.png" alt="Celestial Circle Diamond Necklace Set" data-content="product-image-d3">
+                        <div class="product-name-overlay">
+                            <h3 data-content="product-name-d3">Celestial Circle Diamond Necklace Set</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="diamond">
+                    <div class="product-image">
+                        <img src="images/diamond/ChatGPT%20Image%20Feb%209%2C%202026%2C%2012_02_53%20AM.png" alt="Regal Fringe Diamond Necklace Set" data-content="product-image-d4">
+                        <div class="product-name-overlay">
+                            <h3 data-content="product-name-d4">Regal Fringe Diamond Necklace Set</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="diamond">
+                    <div class="product-image">
+                        <img src="images/diamond/ChatGPT%20Image%20Feb%209%2C%202026%2C%2012_20_55%20AM.png" alt="Sapphire Cascade Heritage Necklace Set" data-content="product-image-d5">
+                        <div class="product-name-overlay">
+                            <h3 data-content="product-name-d5">Sapphire Cascade Heritage Necklace Set</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="diamond">
+                    <div class="product-image">
+                        <img src="images/diamond/ChatGPT%20Image%20Feb%209%2C%202026%2C%2012_22_23%20AM.png" alt="Emerald Weave Diamond Necklace Set" data-content="product-image-d6">
+                        <div class="product-name-overlay">
+                            <h3 data-content="product-name-d6">Emerald Weave Diamond Necklace Set</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="diamond">
+                    <div class="product-image">
+                        <img src="images/diamond/ChatGPT%20Image%20Feb%209%2C%202026%2C%2012_23_40%20AM.png" alt="Mughal Grace Diamond Necklace Set" data-content="product-image-d7">
+                        <div class="product-name-overlay">
+                            <h3 data-content="product-name-d7">Mughal Grace Diamond Necklace Set</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="diamond">
+                    <div class="product-image">
+                        <img src="images/diamond/ChatGPT%20Image%20Feb%209%2C%202026%2C%2012_38_42%20AM.png" alt="Emerald Teardrop Luxe Necklace Set" data-content="product-image-d8">
+                        <div class="product-name-overlay">
+                            <h3 data-content="product-name-d8">Emerald Teardrop Luxe Necklace Set</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="diamond">
+                    <div class="product-image">
+                        <img src="images/diamond/ChatGPT%20Image%20Feb%209%2C%202026%2C%2012_47_13%20AM.png" alt="Crimson Crown Diamond Necklace Set" data-content="product-image-d9">
+                        <div class="product-name-overlay">
+                            <h3 data-content="product-name-d9">Crimson Crown Diamond Necklace Set</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="silver">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/400x400?text=Silver+Jewelry" alt="Silver Jewelry" data-content="product-image-6">
+                        <div class="product-name-overlay">
+                            <h3 data-content="product-name-6">Silver Pendant Set</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox for product images -->
+    <div class="lightbox-modal" id="productLightbox">
+        <span class="lightbox-close" id="productLightboxClose">&times;</span>
+        <img class="lightbox-image" id="productLightboxImage" src="" alt="">
+        <div class="lightbox-nav">
+            <button class="lightbox-prev" id="productLightboxPrev"><i class="fas fa-chevron-left"></i></button>
+            <button class="lightbox-next" id="productLightboxNext"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer" data-editable="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3 data-content="footer-about-title">About Ganga Jewellers</h3>
+                    <p data-content="footer-about-text">Your trusted partner for premium jewelry since 1985. We offer certified gold, diamond, and silver jewelry with exceptional craftsmanship.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Collections</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> <span data-content="address">123 Main Street, City, State 123456</span></li>
+                        <li><i class="fas fa-phone"></i> <span data-content="footer-phone">+91-9891613632</span></li>
+                        <li><i class="fas fa-envelope"></i> <span data-content="footer-email">pmaheshwari61@gmail.com</span></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" data-content="social-facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" data-content="social-instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" data-content="social-whatsapp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span data-content="copyright-year">2025</span> Ganga Jewellers. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Social Buttons -->
+    <div class="floating-social">
+        <a href="#" class="whatsapp-btn" title="Chat on WhatsApp" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" class="facebook-btn" title="Follow on Facebook" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="instagram-btn" title="Follow on Instagram" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+    </div>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" title="Back to Top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Edit Mode Toggle -->
+    <button class="edit-mode-toggle" id="editModeToggle" title="Toggle Edit Mode">
+        <i class="fas fa-edit"></i>
+    </button>
+
+    <!-- Edit Modal -->
+    <div class="edit-modal" id="editModal">
+        <div class="edit-modal-content">
+            <span class="edit-modal-close">&times;</span>
+            <h2 id="editModalTitle">Edit Content</h2>
+            <form id="editForm">
+                <div class="form-group">
+                    <label for="editField">Field:</label>
+                    <input type="text" id="editField" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="editValue" id="editValueLabel">Content:</label>
+                    <textarea id="editValue" rows="5" placeholder="Enter content or image URL"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Save Changes</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/editor.js"></script>
+    <script>
+        // Product filter functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const productCards = document.querySelectorAll('.product-card');
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const category = this.getAttribute('data-category');
+
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+
+                    productCards.forEach(card => {
+                        if (category === 'all' || card.getAttribute('data-category') === category) {
+                            card.style.display = 'block';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+
+            // Check URL parameter for category
+            const urlParams = new URLSearchParams(window.location.search);
+            const categoryParam = urlParams.get('category');
+            if (categoryParam) {
+                const btn = document.querySelector(`[data-category="${categoryParam}"]`);
+                if (btn) {
+                    btn.click();
+                }
+            }
+
+            // Product image lightbox: click to open full photo
+            const productLightbox = document.getElementById('productLightbox');
+            const productLightboxImage = document.getElementById('productLightboxImage');
+            const productLightboxClose = document.getElementById('productLightboxClose');
+            const productLightboxPrev = document.getElementById('productLightboxPrev');
+            const productLightboxNext = document.getElementById('productLightboxNext');
+            let productLightboxIndex = 0;
+            let productLightboxImages = [];
+
+            function getVisibleProductImages() {
+                return Array.from(document.querySelectorAll('.product-card'))
+                    .filter(function(card) { return card.style.display !== 'none'; })
+                    .map(function(card) { return card.querySelector('.product-image img'); })
+                    .filter(function(img) { return img && img.src; })
+                    .map(function(img) { return img.src; });
+            }
+
+            function openProductLightbox(src) {
+                productLightboxImages = getVisibleProductImages();
+                productLightboxIndex = productLightboxImages.indexOf(src);
+                if (productLightboxIndex < 0) productLightboxIndex = 0;
+                productLightboxImage.src = productLightboxImages[productLightboxIndex];
+                productLightbox.style.display = 'flex';
+            }
+
+            function closeProductLightbox() {
+                productLightbox.style.display = 'none';
+            }
+
+            function nextProductImage() {
+                if (productLightboxImages.length === 0) return;
+                productLightboxIndex = (productLightboxIndex + 1) % productLightboxImages.length;
+                productLightboxImage.src = productLightboxImages[productLightboxIndex];
+            }
+
+            function prevProductImage() {
+                if (productLightboxImages.length === 0) return;
+                productLightboxIndex = (productLightboxIndex - 1 + productLightboxImages.length) % productLightboxImages.length;
+                productLightboxImage.src = productLightboxImages[productLightboxIndex];
+            }
+
+            document.querySelectorAll('.product-card .product-image').forEach(function(el) {
+                el.style.cursor = 'pointer';
+                el.addEventListener('click', function(e) {
+                    if (document.body.classList.contains('edit-mode')) return;
+                    e.preventDefault();
+                    var img = this.querySelector('img');
+                    if (img && img.src) openProductLightbox(img.src);
+                });
+            });
+
+            if (productLightboxClose) productLightboxClose.addEventListener('click', closeProductLightbox);
+            if (productLightboxPrev) productLightboxPrev.addEventListener('click', prevProductImage);
+            if (productLightboxNext) productLightboxNext.addEventListener('click', nextProductImage);
+            if (productLightbox) {
+                productLightbox.addEventListener('click', function(e) {
+                    if (e.target === productLightbox) closeProductLightbox();
+                });
+            }
+            document.addEventListener('keydown', function(e) {
+                if (productLightbox && productLightbox.style.display === 'flex') {
+                    if (e.key === 'Escape') closeProductLightbox();
+                    if (e.key === 'ArrowRight') nextProductImage();
+                    if (e.key === 'ArrowLeft') prevProductImage();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+{
+  "business": {
+    "name": "Ganga Jewellers",
+    "tagline": "Since 1985",
+    "founded": "1985",
+    "description": "Your trusted partner for premium jewelry since 1985. We offer certified gold, diamond, and silver jewelry with exceptional craftsmanship."
+  },
+  "contact": {
+    "phone": "+91-9891613632",
+    "email": "pmaheshwari61@gmail.com",
+    "address": "123 Main Street, City, State 123456",
+    "businessHours": {
+      "allDays": "11:00 AM - 8:30 PM",
+      "closed": "Tuesday"
+    }
+  },
+  "social": {
+    "facebook": "#",
+    "instagram": "#",
+    "twitter": "#",
+    "youtube": "#"
+  },
+  "features": [
+    {
+      "icon": "fas fa-certificate",
+      "title": "Certified Quality",
+      "description": "BIS Hallmark certified jewelry"
+    },
+    {
+      "icon": "fas fa-tag",
+      "title": "Lowest Making Charges",
+      "description": "Competitive making charges for all jewelry"
+    },
+    {
+      "icon": "fas fa-gem",
+      "title": "Widest Variety of Jewellery",
+      "description": "Extensive collection of designs and styles"
+    },
+    {
+      "icon": "fas fa-flask",
+      "title": "Gold Testing Spectrometer Available",
+      "description": "Accurate purity testing for your peace of mind"
+    },
+  ],
+  "categories": [
+    {
+      "name": "Gold Jewelry",
+      "description": "Traditional and contemporary gold designs",
+      "image": "https://via.placeholder.com/400x400?text=Gold+Jewelry"
+    },
+    {
+      "name": "Diamond Jewelry",
+      "description": "Sparkling diamonds in elegant settings",
+      "image": "https://via.placeholder.com/400x400?text=Diamond+Jewelry"
+    },
+    {
+      "name": "Silver",
+      "description": "Beautiful silver jewelry pieces",
+      "image": "https://via.placeholder.com/400x400?text=Silver"
+    }
+  ]
+}
